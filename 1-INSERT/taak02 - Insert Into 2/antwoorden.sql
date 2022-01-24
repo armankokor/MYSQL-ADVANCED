@@ -1,8 +1,8 @@
-INSERT INTO studenten (`klas`, `adres`, `postcode`) 
-VALUES ('9A', 'straat 1', '1234AE');
+INSERT INTO studenten (student_id, voornaam , achternaam, klas, geboortedatum, woonplaats) 
+VALUES (8, 'Jan' , 'Joop' , '9A', '2003-01-07', 'Amstelveen')
 
-INSERT INTO studenten (`klas`, `adres`, `postcode`) 
-VALUES ('9B', 'straat 2', '1234AA');
+INSERT INTO studenten (student_id, voornaam , achternaam, klas, geboortedatum, woonplaats)
+VALUES (9, 'Henk' , 'Hoog' , '9B', '2005-04-5', 'Amstelveen')
 
-INSERT INTO studenten (`klas`, `adres`, `postcode`) 
-VALUES ('9C', 'straat 3', '1234AL');
+INSERT INTO studenten (student_id, voornaam , achternaam, klas, geboortedatum, woonplaats) 
+VALUES (10, 'Hans' , 'Boer' , '9D', '2010-09-19', 'Amstelveen')
